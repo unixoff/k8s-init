@@ -5,7 +5,7 @@ sudo apt update
 sudo apt upgrade
 
 # Disable Swap
-udo swapoff -a
+sudo swapoff -a
 sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
 
 # Add Kernel Parameters
